@@ -1,0 +1,169 @@
+/* Reset styles */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Inter", monospace;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  /* list-style: none; */
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/*------------------------------------------*/
+
+body {
+  background-color: rgb(199, 197, 197);
+}
+
+/* Main */
+
+.main_wrapper {
+  width: 1024px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main_section {
+  width: 650px;
+  background-color: whitesmoke;
+  padding: 70px 60px 50px;
+}
+
+.full_name {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #1f1f1f;
+}
+.about {
+  font-size: 14px;
+  color: #595959;
+  line-height: 24px;
+}
+
+.experience-title {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #1f1f1f;
+}
+
+.project-experience-list {
+  margin-top: 20px;
+}
+
+.item {
+  margin-left: 20px;
+  margin-top: 3px;
+  color: #f55d26;
+  margin-bottom: 15px;
+}
+
+.position {
+  color: #595959;
+  font-size: 14px;
+  color: #1f1f1f;
+}
+
+.project-link {
+  color: #595959;
+}
+
+/*--------------------------------------*/
+
+/* Sidebar */
+
+.sidebar_wrapper {
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+
+.photo {
+  margin-top: 30px;
+}
+
+.sidebar_section {
+  width: 370px;
+  background-color: rgba(7, 6, 35, 0.742);
+  color: white;
+}
+
+.contact-item {
+  display: flex;
+}
+
+.contact-sign {
+  color: #f55d26;
+  margin-right: 10px;
+}
+
+.section-title {
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+.list {
+  color: #595959;
+}
+
+.skills-item {
+  margin-left: 20px;
+  margin-top: 3px;
+  color: #f55d26;
+}
+
+.skills {
+  color: aliceblue;
+}
