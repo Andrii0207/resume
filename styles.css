@@ -205,6 +205,10 @@ body {
   display: flex;
 }
 
+.contact-item:hover {
+  color: #f55d26;
+}
+
 .mail {
   margin-bottom: 25px;
 }
@@ -237,7 +241,7 @@ body {
 .social-list {
   display: flex;
   gap: 30px;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style: none;
 }
 
