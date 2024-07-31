@@ -99,6 +99,15 @@ body {
   color: #1f1f1f;
 }
 
+.project-title {
+  text-decoration: underline;
+}
+
+.project-title:hover {
+  color: #f55d26;
+  text-decoration: none;
+}
+
 .title {
   margin-bottom: 5px;
   color: #595959;
@@ -114,6 +123,7 @@ body {
 .link-span {
   text-decoration: none;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .experience-list {
@@ -138,21 +148,21 @@ body {
 
 .position {
   color: #595959;
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 3px;
 }
 
 .project-link {
   display: inline-block;
   color: #595959;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
   font-weight: 700;
 }
 
 .project-description {
   color: #595959;
-  font-size: 14px;
+  font-size: 10px;
   margin-bottom: 4px;
   font-weight: 500;
   line-height: 1.5;
@@ -160,13 +170,13 @@ body {
 
 .project-position {
   color: #595959;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .subposition {
   color: #595959;
-  font-size: 14px;
-  margin-bottom: 4px;
+  font-size: 12px;
+  /* margin-bottom: 3px; */
 }
 
 .period {
@@ -195,6 +205,24 @@ body {
   margin-bottom: 8px;
 }
 
+.contact-link {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  fill: #f55d26;
+  margin-right: 8px;
+}
+
+.contact-span {
+  text-decoration: underline;
+}
+
+.contact-span:hover {
+  text-decoration: none;
+}
+
 .sidebar_section {
   width: 370px;
   background-color: rgba(7, 6, 35, 0.742);
@@ -203,6 +231,7 @@ body {
 
 .contact-item {
   display: flex;
+  align-items: center;
 }
 
 .contact-item:hover {
