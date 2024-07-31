@@ -201,18 +201,15 @@ body {
   margin-top: 30px;
 }
 
-.phone {
-  margin-bottom: 8px;
-}
-
 .contact-link {
   display: flex;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .contact-icon {
   fill: #f55d26;
-  margin-right: 8px;
+  margin-right: 12px;
 }
 
 .contact-span {
@@ -236,10 +233,6 @@ body {
 
 .contact-item:hover {
   color: #f55d26;
-}
-
-.mail {
-  margin-bottom: 25px;
 }
 
 .contact-sign {
