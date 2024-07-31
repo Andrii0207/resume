@@ -79,7 +79,7 @@ body {
 .main_section {
   width: 650px;
   background-color: whitesmoke;
-  padding: 70px 60px 50px;
+  padding: 70px;
 }
 
 .full_name {
@@ -130,10 +130,6 @@ body {
   margin-left: 15px;
 }
 
-/* .project-experience-list {
-  margin-top: 20px;
-} */
-
 .experience-item {
   margin-left: 20px;
   color: #f55d26;
@@ -148,8 +144,8 @@ body {
 
 .position {
   color: #595959;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
   margin-bottom: 3px;
 }
 
@@ -175,14 +171,14 @@ body {
 
 .subposition {
   color: #595959;
-  font-size: 12px;
-  /* margin-bottom: 3px; */
+  font-size: 14px;
+  margin-bottom: 3px;
 }
 
 .period {
   color: #595959;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /*--------------------------------------*/
@@ -222,7 +218,7 @@ body {
 
 .sidebar_section {
   width: 370px;
-  background-color: rgba(7, 6, 35, 0.742);
+  background-color: rgba(7, 6, 35, 0.741);
   color: white;
 }
 
@@ -241,12 +237,15 @@ body {
 }
 
 .section-title {
-  margin-top: 25px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .list {
   color: #595959;
+  margin-top: 30px;
+}
+
+.sidebar-list {
   margin-top: 30px;
 }
 
