@@ -80,7 +80,7 @@ body {
 .main_section {
   width: 650px;
   background-color: whitesmoke;
-  padding: 50px 70px;
+  padding: 40px 70px 50px 70px;
 }
 
 .full_position {
